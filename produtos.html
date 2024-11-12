@@ -9,53 +9,93 @@
 </head>
 <body>
   <header>
-    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/logo senac.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                Padaria Senac
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/padaria senac.png" alt="Logo" width="45" height="32" class="d-inline-block align-text-top">
+          Padaria Senac
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Página inicial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicos.html">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="https://api.whatsapp.com/send?phone=2140028922">
+                <img src="img/whatsapp.svg" alt="WhatsApp" width="30" height="24">
               </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Pagina Inicial</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="produtos.html">produtos</a>
             </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Serviços</a>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/seu_perfil">
+                <img src="node_modules/bootstrap-icons/icons/instagram.svg" alt="Instagram" width="30" height="24">
+              </a>
             </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
+            <li class="nav-item">
+              <a class="nav-link" href="https://t.me/seu_perfil">
+                <img src="node_modules/bootstrap-icons/icons/telegram.svg" alt="Telegram" width="30" height="24">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/seu_perfil">
+                <img src="node_modules/bootstrap-icons/icons/facebook.svg" alt="Facebook" width="30" height="24">
+              </a>
+            </li>
+          </ul>
         </div>
-      </nav>
-  </header> 
+      </div>
+    </nav>
+  </header>
   <h2 style="text-align: center;font-size: 140%;">Produtos</h2>
-  <div class="card text-bg-dark">
-    <img src="img/Padaria-carrosel.png" class="card-img" alt="...">
-    <div class="card-img-overlay">
-      <h5 class="card-title">Salgados</h5>
-      <p class="card-text">Sua festa Ficará completa com nossos Salgados</p>
-      
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="img/Padaria-carrosel.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Salgadinhos de festa</h5>
+          <p class="card-text">Bons e grande quantidades</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/pão de queijo carrousel.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pão de Queijo</h5>
+          <p class="card-text">macios e cremosos</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/paes carrousel.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">paes quentes</h5>
+          <p class="card-text">Pães gostosos, bem quentes e sai na hora</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/café carrousel.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cafézinho</h5>
+          <p class="card-text">Café qeuntetinho e delicioso</p>
+        </div>
+      </div>
     </div>
   </div>
   <Footer>
